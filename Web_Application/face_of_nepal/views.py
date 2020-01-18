@@ -1,8 +1,11 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 from django.shortcuts import render
 
 # Create your views here.
 =======
+=======
+>>>>>>> Stashed changes
 from django.shortcuts import render, redirect
 from .forms import FreelancerForm
 from .models import Freelancer
@@ -37,4 +40,7 @@ def freelancer_delete(request,id):
     freelancer.delete()
     return redirect('/freelancer/list')
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
